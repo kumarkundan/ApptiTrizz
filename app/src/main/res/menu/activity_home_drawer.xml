@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back">
+
+
+
+    <item android:title="Best Score"
+        android:id="@+id/nav_item_best"
+        android:icon="@drawable/vic"/>
+
+    <item android:title="Favourite Question"
+        android:id="@+id/nav_item_fav"
+        android:icon="@drawable/star"/>
+
+    <item android:title="History"
+        android:id="@+id/nav_item_his"
+        android:icon="@drawable/clk"/>
+
+    <item android:title="Help"
+        android:id="@+id/nav_item_help"
+        android:icon="@drawable/hlp"/>
+
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:title="About Us"
+                android:id="@+id/nav_item_about"
+                android:icon="@drawable/userv"/>
+            <item
+                android:title="Like us"
+                android:icon="@drawable/like"/>
+        </menu>
+    </item>
+
+</menu>

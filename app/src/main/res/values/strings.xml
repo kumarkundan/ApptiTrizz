@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Drawer With Swipe Tabs</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hcflcm">
+    <![CDATA[
+    <html>
+    <body >
+        <h2><font color=#FF0000>1. Factor:</h2>
+        <p >When a number x divide another number y exactly then we say x is factor of y or y is multiple of x.</p>
+
+        <h2><font color=#FF0000>2. Highest Common Factor (HCF) or Greateast Common Measure(GCM) or Greateast Common Divisor:</h2>
+        <p>HCF of the given numbers is the heighest number which divides each of given number exactly.<br /><br /> Consider the numbers 12 and 15: <br />The factors of 12 are : 1, 2, 3, 4, 6, 12.<br />The factors of 15 are : 1, 3, 5, 15.<br /><br />1 and 3 are the only common factors (numbers which are factors of both 12 and 15).</p><br />
+
+        <h2 ><font color=#FF0000>3. Least Common Factor(LCM):</h2>
+        <p>LCM of given numbers is the least number which is exactly divisible by given numbers.<br /><br />Consider the numbers 12 and 15 again:<br />The multiples of 12 are : 12, 24, 36, 48, 60, 72, 84.<br /> The multiples of 15 are : 15, 30, 45, 60, 75, 90. <br /> <br />60 is a common multiple (a multiple of both 12 and 15), and there are no lower common multiples. Therefore, the lowest common multiple of 12 and 15 is 60.</p><br />
+
+
+        <h2 ><font color=#FF0000>4. Formulas:</h2>
+        <p>1. Product of two numbers = product of(HCF & LCM).<br /><br />2. HCF of fraction = HCF of Numerators/LCM of Denominators.<br /><br />3.LCM of fraction = LCM of Numerators/HCF of Denominators.<br /><br /></p><br />
+    </body>
+    <html>
+    ]]></string>
+
+    <string name="numbers">
+    <![CDATA[
+    <html>
+    <body >
+        <p>
+In most of quants questions we face  little bit complex addition ,subtraction ,division and multiplication problems. Sometimes this type of problems don’t require full solution. Just by examine of question or by analyzing answer option we can answer correctly.<br /><br />
+Some easy tricks are here which can be helpful to solve the complex question in minimum time: <br /><br />
+
+<h2><font color=#FF0000>1. Last digit:</font></h2>When there is a question in which operation (sum/subtraction/multiply/divide) is performed on some numbers. So by calculating last digit we can tick answer. If you want apply last digit 2 conditions must be followed by questions:<br /><br />
+
+ 1.In answer options no option should be like-NOT/None of these/Cant determine.<br />
+ 2.last digit of each answer option should be different.<br /> <br />
+explanation :-  <br /> <br />
+456823*12546 <br /> <br />
+A.5731301367<br />
+B.5731301358<br />
+C.5731301394<br />
+D.5731301356 <br /> <br />
+this question follow both the rules so we can apply last digit.<br /> <br />
+here in first number 456823 last digit is 3 and in second number 12546 last digit is 6  if we multiply both last digit: <br />
+6*3 = 18    <br />
+here last digit is- 8 so in ans last digit 8 in option B. like this we can solve any complex operations using last digit.<br /> <br />
+
+
+<h2><font color=#FF0000>2. Lucky digit:</font></h2>Last digit concept you cant apply for all the question. When answer options having same last digit for example see :<br /><br />
+
+Explanation <br /><br />
+456823*12546 <br /><br />
+A.5731301778<br />
+B.5731301358<br />
+C.5731301338<br />
+D.5731301228<br /><br />
+
+here we will apply a trick called lucky digit.<br /><br />
+
+Digit 9 is known here as a lucky digit.follow these steps to calculate answer using lucky digit:<br /><br />
+1. First calculate lucky digit for your question.take first number of your question.i.e 456823<br /><br />
+2. Eliminate 9 or the digits which gives sum equals to 9.<br />
+ex: eliminate 5&4 (5+4=9),6&3(6+3=9).<br /><br />
+3.Calculate sum of remaining digits.<br /><br />
+4.If it is one digit from 0-9 then fine if it is greater than 9 then calculate sum of digits it will be your lucky digit.<br />
+ex. Remaining digit 8& 2 sum =10, sum of digit=1, its your lucky digit.<br /><br />
+5.Again calculate for second number i.e 12546. at last you got 0.but consider it 9 as lucky digit.<br /><br />
+6.Now do the question as its given to find multiply  (1*9=9).9 is lucky digit for this question.<br /><br />
+7.Now calculate same  for answers options.<br /><br />
+
+Explaination:<br /><br />
+A. 5731301778 <br /><br /> here eliminate 5,1,3 & 8,1 now remaining is(7+3+0+7+7=24 lucky digit is 2+4=6)<br /><br />
+B. 5731301358 <br /><br /> here eliminate(5,31&1,3,5 now remaining is(7+3+0+8=18 lucky digit is 1+8=9) same lucky digit as question it will be your answer.<br /><br />
+
+
+
+ </p>
+    </body>
+    <html>
+    ]]></string>
+
+
+
+
+</resources>
