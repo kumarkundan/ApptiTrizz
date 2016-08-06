@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class AndroidSQLiteTutorialActivity extends ListActivity {
+public class AndroidSQLiteTutorialActivity extends Activity {
 
     EditText name,mobile;
     Button insert,fetch;
